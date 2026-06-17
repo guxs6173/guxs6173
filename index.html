@@ -3,163 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanip Perú - Herramientas de Prototipado y Soluciones</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Sanip Perú - Soluciones de Saneamiento Ambiental</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome para Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: #f8fafc;
         }
-        /* Estilos personalizados para simular aspecto de herramienta de diseño */
-        .wireframe-grid {
-            background-size: 20px 20px;
-            background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
-                              linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
-        }
-        .wireframe-element {
-            border: 2px dashed #94a3b8;
-            background-color: #f1f5f9;
-        }
     </style>
 </head>
 <body class="min-h-screen flex flex-col text-slate-800">
 
-    <!-- BARRA DE NAVEGACIÓN -->
     <header class="bg-gradient-to-r from-blue-900 to-indigo-950 text-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center space-x-3">
                 <div class="bg-white p-2 rounded-lg shadow-inner flex items-center justify-center">
-                    <!-- Representación del Logo de Sanip Perú -->
                     <span class="text-blue-900 font-extrabold text-xl tracking-tight">SANIP<span class="text-green-500">.</span>PE</span>
                 </div>
                 <div class="hidden md:block">
                     <span class="text-xs text-blue-200 block font-semibold uppercase tracking-wider">Saneamiento Ambiental Integrado</span>
-                    <span class="text-xs text-slate-300">Innovación Digital 2026</span>
+                    <span class="text-xs text-slate-300">Protegiendo tu salud desde 2018</span>
                 </div>
             </div>
             <div class="flex items-center space-x-4">
-                <a href="#soluciones" class="hover:text-blue-200 transition-colors text-sm font-medium">Soluciones</a>
-                <a href="#prototipador" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-md flex items-center gap-2">
-                    <i class="fa-solid fa-laptop-code"></i> Prototipo Interactivo
+                <a href="#soluciones" class="hover:text-blue-200 transition-colors text-sm font-medium">Servicios</a>
+                <a href="#demo" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-md flex items-center gap-2">
+                    <i class="fa-solid fa-mobile-screen-button"></i> Demo Interactiva
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- INTRODUCCIÓN -->
-    <section class="bg-white border-b border-slate-200 py-10 px-4">
-        <div class="max-w-7xl mx-auto text-center md:text-left md:flex md:items-center md:justify-between gap-8">
-            <div class="max-w-2xl">
-                <span class="text-blue-600 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-blue-50 rounded-full border border-blue-200">Herramienta 7 Avanzada</span>
-                <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">Prototipos Digitales y Ranking de Soluciones</h1>
-                <p class="text-slate-600 mt-2 text-base">
-                    Diseñado exclusivamente para <strong class="text-blue-900">Sanip Perú</strong>. Evaluamos, priorizamos y prototipamos las propuestas tecnológicas de optimización de atención para nuestros servicios de fumigación y desinfección.
+    <section class="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-3xl">
+                <span class="text-blue-200 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-white/10 rounded-full border border-white/20">Innovación Digital 2026</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold mt-4 tracking-tight leading-tight">
+                    Soluciones Digitales para tu <span class="text-amber-400">Saneamiento</span>
+                </h1>
+                <p class="text-blue-200 mt-4 text-lg max-w-2xl">
+                    Sanip Perú optimiza la atención de sus servicios de fumigación, desratización y desinfección con herramientas tecnológicas diseñadas para brindarte una experiencia rápida, segura y eficiente.
                 </p>
-            </div>
-            <div class="mt-6 md:mt-0 bg-amber-50 border border-amber-200 p-4 rounded-xl flex items-start gap-3 max-w-sm mx-auto md:mx-0">
-                <i class="fa-solid fa-circle-info text-amber-600 text-xl mt-0.5"></i>
-                <div class="text-left text-xs text-amber-900">
-                    <p class="font-bold">Criterio de Evaluación de Calidad</p>
-                    <p class="mt-1">Tal como se indica en la guía metodológica original, en esta entrega <strong>se evalúa la claridad funcional del flujo</strong> y no el diseño estético de alta fidelidad.</p>
+                <div class="mt-6 flex flex-wrap gap-4">
+                    <a href="#demo" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-6 py-3 rounded-xl font-bold text-sm transition-all shadow-lg flex items-center gap-2">
+                        <i class="fa-solid fa-play"></i> Probar Demo
+                    </a>
+                    <a href="#soluciones" class="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold text-sm transition-all border border-white/20">
+                        Ver Servicios
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CUERPO PRINCIPAL -->
     <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
         
-        <!-- COLUMNA IZQUIERDA: HERRAMIENTAS SUGERIDAS Y RANKING DE IDEAS (8 Columnas en pantallas grandes) -->
         <div class="lg:col-span-7 space-y-8" id="soluciones">
             
-            <!-- TARJETA: HERRAMIENTAS SUGERIDAS -->
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2 mb-4">
-                    <i class="fa-solid fa-toolbox text-blue-600"></i> Herramientas de Prototipado Sugeridas
-                </h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <!-- Figma -->
-                    <div class="p-4 rounded-xl border border-slate-150 bg-slate-50 hover:bg-blue-50/40 hover:border-blue-200 transition-all group">
-                        <div class="flex items-center gap-3">
-                            <span class="w-8 h-8 rounded-lg bg-orange-100 text-orange-600 font-extrabold flex items-center justify-center text-sm">A</span>
-                            <div>
-                                <h3 class="font-semibold text-slate-800 text-sm group-hover:text-blue-900">Figma</h3>
-                                <p class="text-slate-500 text-xs">Ideal para fidelidad alta y flujos reales</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Canva -->
-                    <div class="p-4 rounded-xl border border-slate-150 bg-slate-50 hover:bg-blue-50/40 hover:border-blue-200 transition-all group">
-                        <div class="flex items-center gap-3">
-                            <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 font-extrabold flex items-center justify-center text-sm">B</span>
-                            <div>
-                                <h3 class="font-semibold text-slate-800 text-sm group-hover:text-blue-900">Canva</h3>
-                                <p class="text-slate-500 text-xs">Rápido para maquetación visual simple</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Whimsical -->
-                    <div class="p-4 rounded-xl border border-slate-150 bg-slate-50 hover:bg-blue-50/40 hover:border-blue-200 transition-all group">
-                        <div class="flex items-center gap-3">
-                            <span class="w-8 h-8 rounded-lg bg-purple-100 text-purple-600 font-extrabold flex items-center justify-center text-sm">C</span>
-                            <div>
-                                <h3 class="font-semibold text-slate-800 text-sm group-hover:text-blue-900">Whimsical</h3>
-                                <p class="text-slate-500 text-xs">Excelente para diagramas de flujo y UX</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TARJETA: IMPLEMENTACIONES DE SOLUCIONES (RANKING DE IMAGEN 2) -->
             <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
                 <div class="flex justify-between items-center mb-6">
                     <div>
-                        <h2 class="text-xl font-bold text-slate-900">Evaluación de Soluciones Sanip Perú</h2>
-                        <p class="text-xs text-slate-500 mt-1">Nivel de prioridad, viabilidad e impacto en atención al cliente</p>
+                        <h2 class="text-xl font-bold text-slate-900">Nuestros Servicios Digitales</h2>
+                        <p class="text-xs text-slate-500 mt-1">Soluciones tecnológicas integradas para tu tranquilidad</p>
                     </div>
-                    <span class="text-xs font-semibold px-2.5 py-1 bg-green-100 text-green-800 rounded-full">5 Evaluadas</span>
+                    <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 text-blue-800 rounded-full">5 Soluciones</span>
                 </div>
 
-                <!-- Lista de Soluciones Adaptando la Imagen 2 -->
                 <div class="space-y-4">
                     
-                    <!-- 1er Lugar -->
                     <div class="relative bg-gradient-to-r from-amber-50/60 to-white p-4 rounded-xl border border-amber-200 shadow-sm transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(1)">
                         <div class="flex items-start gap-4">
-                            <!-- Medalla de Oro -->
                             <div class="flex-shrink-0 flex flex-col items-center">
                                 <div class="w-12 h-12 rounded-full bg-gradient-to-b from-yellow-300 to-amber-500 flex items-center justify-center shadow-md relative border-2 border-white">
                                     <span class="text-white font-black text-xl">1</span>
-                                    <!-- Cinta de Medalla -->
                                     <div class="absolute -top-1 w-6 h-2 bg-red-600 rounded-sm"></div>
                                 </div>
                                 <span class="text-[10px] font-bold text-amber-700 mt-1 uppercase tracking-wider">Oro</span>
                             </div>
-                            <!-- Contenido -->
                             <div class="flex-grow">
                                 <div class="flex items-center justify-between">
                                     <h3 class="font-bold text-slate-900 text-base">Formulario Inteligente de Solicitud</h3>
                                     <span class="text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full font-semibold">Recomendado</span>
                                 </div>
-                                <p class="text-xs text-slate-600 mt-1">Clasificación automática del tipo de plaga o requerimiento (fumigación, desratización, control de palomas).</p>
+                                <p class="text-xs text-slate-600 mt-1">Clasificación automática del tipo de plaga o requerimiento. El sistema analiza tu caso y sugiere el servicio adecuado al instante.</p>
                                 <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
-                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-circle-check"></i> Fácil de aplicar</span>
-                                    <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-chart-line"></i> Mejora inmediata en organización</span>
+                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-circle-check"></i> Respuesta inmediata</span>
+                                    <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-brain"></i> Clasificación inteligente</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- 2do Lugar -->
                     <div class="relative bg-slate-50/50 p-4 rounded-xl border border-slate-200 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(2)">
                         <div class="flex items-start gap-4">
-                            <!-- Medalla de Plata -->
                             <div class="flex-shrink-0 flex flex-col items-center">
                                 <div class="w-12 h-12 rounded-full bg-gradient-to-b from-slate-200 to-slate-400 flex items-center justify-center shadow-md relative border-2 border-white">
                                     <span class="text-white font-black text-xl">2</span>
@@ -167,22 +105,19 @@
                                 </div>
                                 <span class="text-[10px] font-bold text-slate-500 mt-1 uppercase tracking-wider">Plata</span>
                             </div>
-                            <!-- Contenido -->
                             <div class="flex-grow">
                                 <h3 class="font-bold text-slate-900 text-base">Chatbot WhatsApp con Filtro y Derivación</h3>
-                                <p class="text-xs text-slate-600 mt-1">Asistente automatizado que filtra emergencias de desinfección y deriva a asesores especialistas.</p>
+                                <p class="text-xs text-slate-600 mt-1">Asistente automatizado que filtra emergencias de desinfección y deriva a asesores especialistas al instante.</p>
                                 <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
-                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-users-slash"></i> Reduce alta carga laboral</span>
-                                    <span class="bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-bolt"></i> Rápida implementación</span>
+                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-users-slash"></i> Reduce tiempos de espera</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-bolt"></i> Atención 24/7</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- 3er Lugar -->
                     <div class="relative bg-slate-50/50 p-4 rounded-xl border border-slate-200 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(3)">
                         <div class="flex items-start gap-4">
-                            <!-- Medalla de Bronce -->
                             <div class="flex-shrink-0 flex flex-col items-center">
                                 <div class="w-12 h-12 rounded-full bg-gradient-to-b from-amber-600 to-amber-800 flex items-center justify-center shadow-md relative border-2 border-white">
                                     <span class="text-white font-black text-xl">3</span>
@@ -190,44 +125,34 @@
                                 </div>
                                 <span class="text-[10px] font-bold text-amber-800 mt-1 uppercase tracking-wider">Bronce</span>
                             </div>
-                            <!-- Contenido -->
                             <div class="flex-grow">
-                                <h3 class="font-bold text-slate-900 text-base">Sistema de Tickets de Atención con Prioridad Visible</h3>
+                                <h3 class="font-bold text-slate-900 text-base">Sistema de Tickets de Atención</h3>
                                 <p class="text-xs text-slate-600 mt-1">Panel de control interno para ordenar solicitudes de inspección técnica según nivel de urgencia sanitaria.</p>
                                 <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
-                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-list-check"></i> Ordena el proceso interno</span>
+                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-list-check"></i> Priorización automática</span>
                                     <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-clock"></i> Mejora tiempos de respuesta</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Grid de 4to y 5to lugar -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <!-- 4to Lugar -->
                         <div class="bg-slate-50/30 p-4 rounded-xl border border-slate-150 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(4)">
                             <div class="flex items-start gap-3">
                                 <span class="w-8 h-8 rounded-lg bg-slate-200 text-slate-700 font-extrabold flex items-center justify-center text-sm flex-shrink-0">4</span>
                                 <div>
                                     <h4 class="font-bold text-slate-900 text-sm">Clasificación por Palabras Clave</h4>
-                                    <p class="text-[11px] text-slate-600 mt-1">Sistema que analiza el mensaje para detectar urgencia.</p>
-                                    <div class="mt-2 text-[10px] text-amber-700 font-semibold bg-amber-50 px-2 py-0.5 rounded inline-block">
-                                        <i class="fa-solid fa-triangle-exclamation"></i> Requiere más desarrollo
-                                    </div>
+                                    <p class="text-[11px] text-slate-600 mt-1">Analiza tu mensaje y detecta el nivel de urgencia automáticamente.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- 5to Lugar -->
                         <div class="bg-slate-50/30 p-4 rounded-xl border border-slate-150 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(5)">
                             <div class="flex items-start gap-3">
                                 <span class="w-8 h-8 rounded-lg bg-slate-200 text-slate-700 font-extrabold flex items-center justify-center text-sm flex-shrink-0">5</span>
                                 <div>
                                     <h4 class="font-bold text-slate-900 text-sm">Menú de Reclamos Interactivo</h4>
-                                    <p class="text-[11px] text-slate-600 mt-1">Lista autogestionable de quejas o incidencias de servicio.</p>
-                                    <div class="mt-2 text-[10px] text-slate-600 font-semibold bg-slate-100 px-2 py-0.5 rounded inline-block">
-                                        <i class="fa-solid fa-user-gear"></i> Depende del uso correcto del usuario
-                                    </div>
+                                    <p class="text-[11px] text-slate-600 mt-1">Registra incidencias y recibe seguimiento personalizado.</p>
                                 </div>
                             </div>
                         </div>
@@ -236,98 +161,77 @@
                 </div>
             </div>
 
-        </div>
-
-        <!-- COLUMNA DERECHA: PROTOTIPADOR INTERACTIVO (5 Columnas en pantallas grandes) -->
-        <div class="lg:col-span-5" id="prototipador">
-            <div class="bg-slate-900 text-slate-200 p-6 rounded-2xl shadow-xl border border-slate-800 sticky top-20">
-                
-                <!-- Cabecera del Editor Virtual -->
-                <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-6">
-                    <div class="flex items-center gap-2">
-                        <span class="w-3 h-3 rounded-full bg-red-500"></span>
-                        <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
-                        <span class="w-3 h-3 rounded-full bg-green-500"></span>
-                        <span class="text-xs text-slate-400 font-mono ml-2">SIMULADOR_UX.PE</span>
+            <div class="bg-blue-50 border border-blue-200 p-5 rounded-2xl">
+                <div class="flex items-start gap-3">
+                    <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                        <i class="fa-solid fa-shield-halved text-blue-700"></i>
                     </div>
-                    <!-- Controles del Prototipo -->
-                    <div class="flex gap-1.5">
-                        <button onclick="cambiarModo('wireframe')" id="btn-wireframe" class="px-2.5 py-1 text-xs font-semibold rounded bg-blue-600 text-white transition-all">
-                            Wireframe
-                        </button>
-                        <button onclick="cambiarModo('mockup')" id="btn-mockup" class="px-2.5 py-1 text-xs font-semibold rounded bg-slate-800 text-slate-400 hover:text-white transition-all">
-                            Mockup
-                        </button>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">Compromiso Sanip Perú</h3>
+                        <p class="text-xs text-slate-600 mt-1">Más de 8 años protegiendo hogares y empresas en Lima. Contamos con certificaciones DIGESA y equipos especializados para cada tipo de plaga.</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Detalle y Tarea del Prototipo Actual -->
+        </div>
+
+        <div class="lg:col-span-5" id="demo">
+            <div class="bg-slate-900 text-slate-200 p-6 rounded-2xl shadow-xl border border-slate-800 sticky top-20">
+                
+                <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-mobile-screen-button text-blue-400"></i> App Sanip Perú
+                        </span>
+                    </div>
+                    <span class="text-[10px] bg-blue-600/20 text-blue-300 px-2 py-0.5 rounded font-mono">v2.0 Demo</span>
+                </div>
+
                 <div class="mb-4">
                     <div class="flex items-center justify-between">
                         <h3 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
                             <i class="fa-solid fa-layer-group text-blue-400" id="solucion-icono"></i>
                             <span id="solucion-titulo">Formulario Inteligente</span>
                         </h3>
-                        <span class="text-[10px] font-mono px-2 py-0.5 bg-slate-800 rounded text-slate-400" id="solucion-puesto">1er Lugar (Oro)</span>
+                        <span class="text-[10px] font-mono px-2 py-0.5 bg-slate-800 rounded text-slate-400" id="solucion-puesto">Servicio Estrella</span>
                     </div>
-                    <p class="text-xs text-slate-400 mt-2 italic" id="solucion-meta">
-                        Objetivo: Recoger la información del cliente y clasificar automáticamente el requerimiento.
+                    <p class="text-xs text-slate-400 mt-1 italic" id="solucion-meta">
+                        Completa tus datos y recibe una solución personalizada al instante.
                     </p>
                 </div>
 
-                <!-- DISPOSITIVO MÓVIL SIMULADO (Área de Interacción) -->
                 <div class="bg-slate-950 border-4 border-slate-800 rounded-[32px] overflow-hidden max-w-[290px] mx-auto shadow-2xl relative my-6">
-                    <!-- Bocina del Teléfono -->
                     <div class="absolute top-0 inset-x-0 h-4 bg-slate-800 flex justify-center items-center z-10">
                         <div class="w-16 h-1.5 bg-slate-950 rounded-full"></div>
                     </div>
 
-                    <!-- Pantalla del Celular -->
                     <div class="pt-5 pb-6 px-4 min-h-[460px] flex flex-col" id="pantalla-celular">
                         
-                        <!-- PANTALLA 1: FORMULARIO INTELIGENTE -->
                         <div id="pantalla-1" class="flex-grow flex flex-col justify-between">
                             <div>
                                 <div class="text-center py-3 border-b border-slate-800">
-                                    <span class="text-xs font-bold text-blue-400 font-mono tracking-wider">SANIP PERÚ SANEAMIENTO</span>
-                                    <h4 class="text-[11px] text-slate-400">Solicitud de Servicio Rápido</h4>
+                                    <span class="text-xs font-bold text-blue-400 font-mono tracking-wider">SANIP PERÚ</span>
+                                    <h4 class="text-[11px] text-slate-400">Solicitud de Servicio</h4>
                                 </div>
 
-                                <!-- Vista Wireframe (Líneas y Cajas Simples) -->
-                                <div class="wireframe-only mt-4 space-y-3">
-                                    <div class="p-2 border border-dashed border-slate-700 bg-slate-900 rounded text-[10px] text-slate-400 text-center">
-                                        [ Área de Logo / Encabezado ]
-                                    </div>
+                                <div class="mt-4 space-y-3">
                                     <div class="space-y-1">
-                                        <div class="h-2 w-16 bg-slate-700 rounded"></div>
-                                        <div class="h-8 border border-dashed border-slate-700 bg-slate-900 rounded flex items-center px-2 text-[10px] text-slate-500">Nombre del cliente...</div>
-                                    </div>
-                                    <div class="space-y-1">
-                                        <div class="h-2 w-24 bg-slate-700 rounded"></div>
-                                        <div class="h-8 border border-dashed border-slate-700 bg-slate-900 rounded flex items-center px-2 text-[10px] text-slate-500">¿Qué plaga o problema observa?</div>
-                                    </div>
-                                </div>
-
-                                <!-- Vista Mockup (Detalle Visual) -->
-                                <div class="mockup-only mt-4 space-y-3 hidden">
-                                    <div class="space-y-1">
-                                        <label class="text-[10px] font-semibold text-slate-300 block">Tu Nombre Comercial/Personal</label>
+                                        <label class="text-[10px] font-semibold text-slate-300 block">Nombre o Empresa</label>
                                         <input type="text" id="nombre-cliente" placeholder="Ej. Restaurante Sabor Peruano" class="w-full text-xs bg-slate-900 border border-slate-700 rounded p-2 text-white focus:outline-none focus:ring-1 focus:ring-blue-500">
                                     </div>
                                     <div class="space-y-1">
-                                        <label class="text-[10px] font-semibold text-slate-300 block">Describe tu problema o plaga</label>
+                                        <label class="text-[10px] font-semibold text-slate-300 block">¿Qué problema presenta?</label>
                                         <select id="plaga-cliente" onchange="analizarPlaga()" class="w-full text-xs bg-slate-900 border border-slate-700 rounded p-2 text-white focus:outline-none focus:ring-1 focus:ring-blue-500">
                                             <option value="">-- Selecciona una opción --</option>
-                                            <option value="insectos">Presencia de cucarachas o moscas</option>
-                                            <option value="roedores">Rastros de roedores / ratas</option>
+                                            <option value="insectos">Cucarachas o moscas</option>
+                                            <option value="roedores">Roedores / ratas</option>
                                             <option value="desinfeccion">Desinfección de tanques de agua</option>
                                             <option value="preventivo">Fumigación general preventiva</option>
                                         </select>
                                     </div>
 
-                                    <!-- Resultado de Clasificación Automática Inteligente -->
                                     <div id="clasificacion-ia" class="p-2.5 bg-slate-900 border border-blue-900/50 rounded-lg hidden">
-                                        <span class="text-[9px] uppercase tracking-wider text-blue-400 font-extrabold block">Clasificador Automático Sanip</span>
+                                        <span class="text-[9px] uppercase tracking-wider text-blue-400 font-extrabold block">Análisis Inteligente</span>
                                         <p class="text-[11px] text-white mt-1" id="clasificacion-resultado"></p>
                                     </div>
                                 </div>
@@ -337,11 +241,9 @@
                                 <button onclick="ejecutarTarea(1)" class="w-full py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 active:scale-95 transition-all">
                                     Enviar Solicitud
                                 </button>
-                                <span class="text-[9px] text-center block text-slate-500 mt-2">Paso 1: Dibujar y simular navegación</span>
                             </div>
                         </div>
 
-                        <!-- PANTALLA 2: CHATBOT WHATSAPP -->
                         <div id="pantalla-2" class="flex-grow flex flex-col justify-between hidden">
                             <div>
                                 <div class="bg-teal-900 p-2 -mx-4 -mt-1 flex items-center gap-2">
@@ -349,28 +251,24 @@
                                         <i class="fa-solid fa-headset"></i>
                                     </div>
                                     <div>
-                                        <h4 class="text-xs font-bold text-white">Sanip Bot 🤖</h4>
-                                        <span class="text-[9px] text-teal-300">En línea (Autorespuesta)</span>
+                                        <h4 class="text-xs font-bold text-white">Sanip Bot</h4>
+                                        <span class="text-[9px] text-teal-300">En línea</span>
                                     </div>
                                 </div>
 
-                                <!-- Historial de Chat -->
                                 <div class="mt-3 space-y-2.5 text-[11px]">
-                                    <!-- Mensaje Bot -->
                                     <div class="bg-teal-950 p-2 rounded-lg text-slate-300 max-w-[85%] border border-teal-900/40">
-                                        ¡Hola! Bienvenido al soporte express de Sanip Perú. Elige tu opción:
+                                        ¡Hola! Soy el asistente virtual de Sanip Perú. ¿En qué puedo ayudarte?
                                         <div class="mt-2 space-y-1">
-                                            <button onclick="seleccionarOpcionBot('Cotizar')" class="w-full text-left p-1 bg-slate-900 hover:bg-slate-800 rounded border border-slate-700/50 text-[10px]">1. Cotizar Fumigación</button>
-                                            <button onclick="seleccionarOpcionBot('Emergencia')" class="w-full text-left p-1 bg-slate-900 hover:bg-slate-800 rounded border border-slate-700/50 text-[10px]">2. Reportar Plaga Crítica 🚨</button>
+                                            <button onclick="seleccionarOpcionBot('Cotizar')" class="w-full text-left p-1 bg-slate-900 hover:bg-slate-800 rounded border border-slate-700/50 text-[10px]">Cotizar fumigación</button>
+                                            <button onclick="seleccionarOpcionBot('Emergencia')" class="w-full text-left p-1 bg-slate-900 hover:bg-slate-800 rounded border border-slate-700/50 text-[10px]">Reportar plaga crítica</button>
                                         </div>
                                     </div>
 
-                                    <!-- Mensaje Usuario Interactivo -->
                                     <div id="mensaje-usuario-chatbot" class="bg-blue-900 p-2 rounded-lg text-white max-w-[80%] ml-auto text-right hidden">
                                         <span id="mensaje-usuario-texto"></span>
                                     </div>
 
-                                    <!-- Mensaje Bot Respuesta Inteligente -->
                                     <div id="mensaje-bot-respuesta" class="bg-teal-950 p-2 rounded-lg text-slate-300 max-w-[85%] border border-teal-900/40 hidden">
                                         <p id="mensaje-bot-texto"></p>
                                     </div>
@@ -379,71 +277,63 @@
 
                             <div class="pt-4">
                                 <button onclick="ejecutarTarea(2)" class="w-full py-2 bg-emerald-600 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-emerald-500 transition-all">
-                                    Derivar a un Asesor Humano
+                                    Derivar a Asesor
                                 </button>
-                                <span class="text-[9px] text-center block text-slate-500 mt-2">Simulación de Flujo de Derivación</span>
                             </div>
                         </div>
 
-                        <!-- PANTALLA 3: SISTEMA DE TICKETS -->
                         <div id="pantalla-3" class="flex-grow flex flex-col justify-between hidden">
                             <div>
                                 <div class="text-center py-2 border-b border-slate-800 flex justify-between items-center">
-                                    <span class="text-[10px] font-bold text-slate-400">PANEL CONTROL DE TICKETS</span>
+                                    <span class="text-[10px] font-bold text-slate-400">PANEL DE TICKETS</span>
                                     <span class="text-[9px] bg-red-950 text-red-400 px-1.5 py-0.5 rounded border border-red-900">Urgencias</span>
                                 </div>
 
-                                <!-- Contenedor de Tickets Simulado -->
                                 <div class="mt-3 space-y-2 text-[10px]">
-                                    <!-- Ticket Alta Prioridad -->
                                     <div class="p-2 bg-red-950/40 border border-red-900 rounded-lg">
                                         <div class="flex justify-between">
                                             <span class="font-bold text-red-400">#TK-048 (Cucarachas)</span>
                                             <span class="px-1 bg-red-600 text-white rounded text-[8px] font-extrabold uppercase">Crítico</span>
                                         </div>
                                         <p class="text-[9px] text-slate-300 mt-1">Chifa "El Dragón" - Av. Larco 452</p>
-                                        <p class="text-[8px] text-slate-500 mt-1">Hace: 10 minutos</p>
+                                        <p class="text-[8px] text-slate-500 mt-1">Hace 10 minutos</p>
                                     </div>
 
-                                    <!-- Ticket Media Prioridad -->
                                     <div class="p-2 bg-amber-950/20 border border-amber-900/50 rounded-lg">
                                         <div class="flex justify-between">
                                             <span class="font-bold text-amber-400">#TK-047 (Preventivo)</span>
                                             <span class="px-1 bg-amber-500 text-white rounded text-[8px] font-extrabold uppercase">Media</span>
                                         </div>
                                         <p class="text-[9px] text-slate-300 mt-1">Oficinas Nexo - San Isidro</p>
-                                        <p class="text-[8px] text-slate-500 mt-1">Hace: 1 hora</p>
+                                        <p class="text-[8px] text-slate-500 mt-1">Hace 1 hora</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="pt-4">
                                 <button onclick="ejecutarTarea(3)" class="w-full py-2 bg-amber-600 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-amber-500 transition-all">
-                                    Resolver Ticket Crítico
+                                    Atender Urgencia
                                 </button>
-                                <span class="text-[9px] text-center block text-slate-500 mt-2">Acción de atención prioritaria</span>
                             </div>
                         </div>
 
-                        <!-- PANTALLA 4: CLASIFICADOR POR PALABRAS CLAVE -->
                         <div id="pantalla-4" class="flex-grow flex flex-col justify-between hidden">
                             <div>
                                 <div class="text-center py-2 border-b border-slate-800">
-                                    <span class="text-[10px] font-bold text-purple-400 font-mono">SANIP KEYWORDS V1</span>
-                                    <p class="text-[9px] text-slate-500">Detector automático de Urgencia Sanitaria</p>
+                                    <span class="text-[10px] font-bold text-purple-400 font-mono">DETECTOR DE URGENCIA</span>
+                                    <p class="text-[9px] text-slate-500">Análisis automático de texto</p>
                                 </div>
 
                                 <div class="mt-4 space-y-3">
                                     <div class="space-y-1">
-                                        <label class="text-[9px] text-slate-400 block">Escribe tu consulta:</label>
-                                        <textarea id="texto-keywords" rows="3" placeholder="Ejemplo: Hay muchas moscas en mi cocina y necesito fumigar urgente..." class="w-full text-xs bg-slate-900 border border-slate-800 rounded p-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-purple-500"></textarea>
+                                        <label class="text-[9px] text-slate-400 block">Describe tu situación:</label>
+                                        <textarea id="texto-keywords" rows="3" placeholder="Ej: Hay muchas moscas en mi cocina y necesito fumigar urgente..." class="w-full text-xs bg-slate-900 border border-slate-800 rounded p-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-purple-500"></textarea>
                                     </div>
 
                                     <button onclick="analizarKeywords()" class="w-full py-1.5 bg-purple-900 hover:bg-purple-800 text-white font-bold text-[10px] rounded transition-all">
-                                        Analizar Palabras Clave
+                                        Analizar
                                     </button>
 
-                                    <!-- Resultado de Búsqueda -->
                                     <div id="resultado-keywords" class="p-2 bg-slate-900 border border-purple-900/30 rounded text-[10px] hidden">
                                         <span class="text-[9px] font-bold text-purple-400">Resultado del Análisis:</span>
                                         <p class="text-white mt-1" id="texto-analizado-keywords"></p>
@@ -455,34 +345,31 @@
                                 <button onclick="ejecutarTarea(4)" class="w-full py-2 bg-purple-700 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-purple-600 transition-all">
                                     Registrar Análisis
                                 </button>
-                                <span class="text-[9px] text-center block text-slate-500 mt-2">Detección de intenciones</span>
                             </div>
                         </div>
 
-                        <!-- PANTALLA 5: MENÚ DE RECLAMOS INTERACTIVO -->
                         <div id="pantalla-5" class="flex-grow flex flex-col justify-between hidden">
                             <div>
                                 <div class="text-center py-2 border-b border-slate-800">
-                                    <span class="text-[10px] font-bold text-red-400">MENÚ DE INCIDENCIAS</span>
-                                    <p class="text-[9px] text-slate-500">¿Qué salió mal en el servicio?</p>
+                                    <span class="text-[10px] font-bold text-red-400">CENTRAL DE INCIDENCIAS</span>
+                                    <p class="text-[9px] text-slate-500">¿Qué sucedió con tu servicio?</p>
                                 </div>
 
                                 <div class="mt-3 space-y-2">
                                     <button onclick="seleccionarIncidencia('re-fumigacion')" class="w-full p-2 bg-slate-900 border border-slate-800 rounded-lg text-left text-[11px] hover:border-red-900 flex justify-between items-center">
-                                        <span>Servicio no eliminó la plaga por completo</span>
+                                        <span>La plaga no se eliminó por completo</span>
                                         <i class="fa-solid fa-chevron-right text-[10px] text-slate-500"></i>
                                     </button>
                                     <button onclick="seleccionarIncidencia('demora')" class="w-full p-2 bg-slate-900 border border-slate-800 rounded-lg text-left text-[11px] hover:border-red-900 flex justify-between items-center">
-                                        <span>El técnico se demoró en llegar</span>
+                                        <span>El técnico llegó tarde</span>
                                         <i class="fa-solid fa-chevron-right text-[10px] text-slate-500"></i>
                                     </button>
                                     <button onclick="seleccionarIncidencia('documentos')" class="w-full p-2 bg-slate-900 border border-slate-800 rounded-lg text-left text-[11px] hover:border-red-900 flex justify-between items-center">
-                                        <span>No me enviaron mi certificado de fumigación</span>
+                                        <span>No recibí mi certificado de fumigación</span>
                                         <i class="fa-solid fa-chevron-right text-[10px] text-slate-500"></i>
                                     </button>
                                 </div>
 
-                                <!-- Mensaje de Alerta Automático -->
                                 <div id="alerta-incidencia" class="p-2 bg-red-950/30 border border-red-900/50 rounded-lg mt-3 text-[10px] text-red-200 hidden">
                                     <p id="alerta-incidencia-texto"></p>
                                 </div>
@@ -492,32 +379,28 @@
                                 <button onclick="ejecutarTarea(5)" class="w-full py-2 bg-red-900 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-red-800 transition-all">
                                     Generar Incidencia
                                 </button>
-                                <span class="text-[9px] text-center block text-slate-500 mt-2">Flujo de Reclamos y Soporte Técnico</span>
                             </div>
                         </div>
 
                     </div>
                     
-                    <!-- Botón de Inicio Virtual del Celular -->
                     <div class="absolute bottom-1.5 inset-x-0 flex justify-center items-center">
                         <div class="w-20 h-1 bg-slate-700 rounded-full"></div>
                     </div>
                 </div>
 
-                <!-- ALERTA DE ÉXITO O COMPROBACIÓN DE TAREA -->
                 <div id="caja-exito" class="bg-blue-950 border border-blue-800 p-4 rounded-xl hidden transition-all">
                     <div class="flex gap-2">
                         <i class="fa-regular fa-circle-check text-green-400 text-lg"></i>
                         <div>
-                            <h4 class="text-xs font-bold text-white">¡Tarea Completada con Éxito!</h4>
-                            <p class="text-[11px] text-slate-300 mt-1" id="mensaje-exito">El flujo del prototipo responde correctamente.</p>
+                            <h4 class="text-xs font-bold text-white">¡Operación Exitosa!</h4>
+                            <p class="text-[11px] text-slate-300 mt-1" id="mensaje-exito">La solicitud se procesó correctamente.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- CONTROLES ADICIONALES DE NAVEGACIÓN -->
                 <div class="mt-6 pt-4 border-t border-slate-800 flex justify-between items-center">
-                    <span class="text-xs text-slate-400">Seleccionar Prototipo:</span>
+                    <span class="text-xs text-slate-400">Navegar:</span>
                     <div class="flex gap-1">
                         <button onclick="seleccionarSolucion(1)" id="dot-1" class="w-6 h-6 rounded bg-blue-600 text-[10px] font-bold text-white flex items-center justify-center transition-all">1</button>
                         <button onclick="seleccionarSolucion(2)" id="dot-2" class="w-6 h-6 rounded bg-slate-800 text-[10px] font-bold text-slate-400 flex items-center justify-center transition-all">2</button>
@@ -532,98 +415,66 @@
 
     </main>
 
-    <!-- BANNER DE EVALUACIÓN FINAL -->
     <section class="bg-white border-t border-slate-200 py-12 px-4 mt-12">
         <div class="max-w-4xl mx-auto text-center">
-            <h3 class="text-lg font-bold text-slate-900">Validación de Usabilidad y Prototipado</h3>
+            <h3 class="text-lg font-bold text-slate-900">¿Por qué elegir Sanip Perú?</h3>
             <p class="text-sm text-slate-600 mt-2 max-w-2xl mx-auto">
-                Los prototipos son herramientas de bajo costo que nos permiten fracasar rápido y barato antes de escribir una sola línea de código en producción. Este flujo interactivo permite a <strong>Sanip Perú</strong> definir sus procesos de atención eficientemente.
+                Tecnología de punta combinada con más de 8 años de experiencia en saneamiento ambiental. Nuestros procesos digitales agilizan la atención para que recibas una solución rápida y efectiva.
             </p>
             <div class="mt-6 flex flex-wrap justify-center gap-6 text-xs font-semibold text-slate-500">
-                <span><i class="fa-solid fa-check text-green-500 mr-2"></i> Dibujar Pantallas</span>
-                <span><i class="fa-solid fa-check text-green-500 mr-2"></i> Simular Navegación</span>
-                <span><i class="fa-solid fa-check text-green-500 mr-2"></i> Ejecución de Tareas</span>
+                <span><i class="fa-solid fa-certificate text-green-500 mr-2"></i> Certificados DIGESA</span>
+                <span><i class="fa-solid fa-clock text-green-500 mr-2"></i> Respuesta en menos de 2 horas</span>
+                <span><i class="fa-solid fa-shield text-green-500 mr-2"></i> Garantía de 30 días</span>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="bg-slate-900 text-slate-400 py-6 text-center text-xs border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4">
-            <p>© 2026 Sanip Perú Saneamiento Ambiental. Todos los derechos reservados.</p>
-            <p class="mt-1 text-slate-500">Desarrollo de Soluciones Integradas de Control de Plagas, Fumigación y Desinfección Ambiental.</p>
+            <p>&copy; 2026 Sanip Perú Saneamiento Ambiental. Todos los derechos reservados.</p>
+            <p class="mt-1 text-slate-500">Control de Plagas, Fumigación y Desinfección Ambiental en Lima Metropolitana.</p>
         </div>
     </footer>
 
-    <!-- LÓGICA DE INTERACCIÓN JAVASCRIPT -->
     <script>
-        // Estado Global del Prototipo
-        let modoActual = 'wireframe'; // wireframe | mockup
         let solucionActual = 1;
 
-        // Cambiar entre modo Wireframe (líneas simples) y Mockup (diseño visual más terminado)
-        function cambiarModo(modo) {
-            modoActual = modo;
-            
-            const btnWireframe = document.getElementById('btn-wireframe');
-            const btnMockup = document.getElementById('btn-mockup');
-
-            if (modo === 'wireframe') {
-                btnWireframe.className = "px-2.5 py-1 text-xs font-semibold rounded bg-blue-600 text-white transition-all";
-                btnMockup.className = "px-2.5 py-1 text-xs font-semibold rounded bg-slate-800 text-slate-400 hover:text-white transition-all";
-                
-                // Mostrar clases de wireframe y ocultar mockup
-                document.querySelectorAll('.wireframe-only').forEach(el => el.classList.remove('hidden'));
-                document.querySelectorAll('.mockup-only').forEach(el => el.classList.add('hidden'));
-            } else {
-                btnWireframe.className = "px-2.5 py-1 text-xs font-semibold rounded bg-slate-800 text-slate-400 hover:text-white transition-all";
-                btnMockup.className = "px-2.5 py-1 text-xs font-semibold rounded bg-blue-600 text-white transition-all";
-                
-                // Mostrar clases de mockup y ocultar wireframe
-                document.querySelectorAll('.wireframe-only').forEach(el => el.classList.add('hidden'));
-                document.querySelectorAll('.mockup-only').forEach(el => el.classList.remove('hidden'));
-            }
-        }
-
-        // Datos de cada una de las 5 soluciones del Ranking
         const infoSoluciones = {
             1: {
                 titulo: "Formulario Inteligente",
-                meta: "Recoger la información del cliente y clasificar automáticamente el requerimiento sanitario.",
-                puesto: "1er Lugar (Medalla de Oro)",
+                meta: "Completa tus datos y recibe una solución personalizada al instante.",
+                puesto: "Servicio Estrella",
                 icono: "fa-wpforms"
             },
             2: {
-                titulo: "Chatbot de WhatsApp",
-                meta: "Simular interacción inmediata de soporte técnico y desvío inteligente de llamadas de emergencia.",
-                puesto: "2do Lugar (Medalla de Plata)",
+                titulo: "Chatbot WhatsApp",
+                meta: "Atención automatizada y derivación inteligente a asesores especializados.",
+                puesto: "Servicio Premium",
                 icono: "fa-comments"
             },
             3: {
                 titulo: "Sistema de Tickets",
-                meta: "Ordenar solicitudes de fumigación y priorizarlas según su nivel de urgencia biológica.",
-                puesto: "3er Lugar (Medalla de Bronce)",
+                meta: "Priorización automática de solicitudes según urgencia sanitaria.",
+                puesto: "Servicio Profesional",
                 icono: "fa-ticket"
             },
             4: {
-                titulo: "Filtro de Palabras Clave",
-                meta: "Identificar y clasificar el peligro y plagas de forma automática basada en palabras.",
-                puesto: "4to Lugar (Mención Especial)",
+                titulo: "Detector de Urgencia",
+                meta: "Analiza tu mensaje y clasifica el nivel de peligro automáticamente.",
+                puesto: "Herramienta Digital",
                 icono: "fa-magnifying-glass"
             },
             5: {
-                titulo: "Menú de Reclamos",
-                meta: "Registro de incidencias, demoras o requerimientos de re-fumigación técnica.",
-                puesto: "5to Lugar (Mención Especial)",
+                titulo: "Menú de Incidencias",
+                meta: "Registra reclamos y recibe seguimiento personalizado de tu caso.",
+                puesto: "Soporte Técnico",
                 icono: "fa-triangle-exclamation"
             }
         };
 
-        // Seleccionar Solución del Ranking o del menú inferior del celular
         function seleccionarSolucion(num) {
             solucionActual = num;
             
-            // Actualizar textos e iconos de cabecera en el Prototipo
             document.getElementById('solucion-titulo').textContent = infoSoluciones[num].titulo;
             document.getElementById('solucion-meta').textContent = infoSoluciones[num].meta;
             document.getElementById('solucion-puesto').textContent = infoSoluciones[num].puesto;
@@ -631,11 +482,9 @@
             const icono = document.getElementById('solucion-icono');
             icono.className = `fa-solid ${infoSoluciones[num].icono} text-blue-400`;
 
-            // Ocultar todas las pantallas del dispositivo móvil
             for (let i = 1; i <= 5; i++) {
                 document.getElementById(`pantalla-${i}`).classList.add('hidden');
                 
-                // Actualizar estilo de los botones indicadores
                 const btnDot = document.getElementById(`dot-${i}`);
                 if (i === num) {
                     btnDot.className = "w-6 h-6 rounded bg-blue-600 text-[10px] font-bold text-white flex items-center justify-center transition-all";
@@ -644,13 +493,9 @@
                 }
             }
 
-            // Mostrar la pantalla correspondiente
             document.getElementById(`pantalla-${num}`).classList.remove('hidden');
-
-            // Ocultar mensaje de éxito anterior
             document.getElementById('caja-exito').classList.add('hidden');
 
-            // Reiniciar inputs específicos si es necesario
             if (num === 1) {
                 document.getElementById('clasificacion-ia').classList.add('hidden');
                 document.getElementById('nombre-cliente').value = '';
@@ -666,9 +511,6 @@
             }
         }
 
-        // Lógica interactiva de las pantallas
-
-        // Pantalla 1: Clasificador Inteligente de Plagas
         function analizarPlaga() {
             const select = document.getElementById('plaga-cliente');
             const valor = select.value;
@@ -683,17 +525,16 @@
             cajaIa.classList.remove('hidden');
             
             if (valor === 'insectos') {
-                textoResultado.innerHTML = "🎯 <strong>Prioridad: Media-Alta</strong><br>Servicio Sugerido: Desinsectación y control de vectores. Recomendado aplicar gel y aspersión.";
+                textoResultado.innerHTML = "Prioridad: Media-Alta<br>Servicio Sugerido: Desinsectación y control de vectores con gel y aspersión.";
             } else if (valor === 'roedores') {
-                textoResultado.innerHTML = "🚨 <strong>Prioridad: Crítica</strong><br>Servicio Sugerido: Desratización y colocación de cebaderas de seguridad perimetral.";
+                textoResultado.innerHTML = "Prioridad: Crítica<br>Servicio Sugerido: Desratización con cebaderas de seguridad perimetral.";
             } else if (valor === 'desinfeccion') {
-                textoResultado.innerHTML = "💧 <strong>Prioridad: Programada</strong><br>Servicio sugerido: Limpieza física y desinfección química de cisterna y tanque elevado con certificado Sanitario.";
+                textoResultado.innerHTML = "Prioridad: Programada<br>Servicio sugerido: Limpieza y desinfección química de cisterna con certificado sanitario.";
             } else if (valor === 'preventivo') {
-                textoResultado.innerHTML = "🌱 <strong>Prioridad: Normal</strong><br>Fumigación general contra insectos rastreros y voladores. Recomendado cada 6 meses.";
+                textoResultado.innerHTML = "Prioridad: Normal<br>Fumigación general contra insectos rastreros y voladores. Recomendado cada 6 meses.";
             }
         }
 
-        // Pantalla 2: Simulación de Chatbot
         function seleccionarOpcionBot(opcion) {
             const msgUsuario = document.getElementById('mensaje-usuario-chatbot');
             const msgTexto = document.getElementById('mensaje-usuario-texto');
@@ -706,18 +547,17 @@
                 msgTexto.textContent = "Quiero cotizar una fumigación preventiva";
                 setTimeout(() => {
                     msgBot.classList.remove('hidden');
-                    msgBotTexto.innerHTML = "🤖 <strong>¡Excelente!</strong> Para cotizar necesito que me brindes los metros cuadrados ($m^2$) de tu local y el distrito en Lima.";
+                    msgBotTexto.innerHTML = "Excelente! Para cotizar necesito los metros cuadrados de tu local y el distrito en Lima.";
                 }, 600);
             } else {
-                msgTexto.textContent = "¡Tengo una emergencia de plaga crítica! 🚨";
+                msgTexto.textContent = "Tengo una emergencia de plaga crítica!";
                 setTimeout(() => {
                     msgBot.classList.remove('hidden');
-                    msgBotTexto.innerHTML = "🚨 <strong>¡Entendido!</strong> Un asesor técnico se comunicará contigo vía telefónica en menos de 5 minutos.";
+                    msgBotTexto.innerHTML = "Entendido! Un asesor técnico se comunicará contigo en menos de 5 minutos.";
                 }, 600);
             }
         }
 
-        // Pantalla 4: Analizador de Palabras Clave
         function analizarKeywords() {
             const texto = document.getElementById('texto-keywords').value.toLowerCase();
             const resultado = document.getElementById('resultado-keywords');
@@ -733,11 +573,11 @@
 
             if (texto.includes('rata') || texto.includes('roedor') || texto.includes('lote') || texto.includes('almacen')) {
                 categoria = "Control de Roedores (Desratización)";
-                urgencia = "Muy Alta 🚨";
+                urgencia = "Muy Alta";
                 colorUrgencia = "text-red-500 font-bold";
             } else if (texto.includes('urgente') || texto.includes('emergencia') || texto.includes('ahora')) {
                 categoria = "Atención Inmediata";
-                urgencia = "Crítica 🔥";
+                urgencia = "Crítica";
                 colorUrgencia = "text-orange-500 font-bold";
             } else if (texto.includes('agua') || texto.includes('tanque') || texto.includes('cisterna')) {
                 categoria = "Saneamiento de Reservorios de Agua";
@@ -745,10 +585,9 @@
                 colorUrgencia = "text-blue-400 font-bold";
             }
 
-            textoAnalizado.innerHTML = `<strong>Categoría:</strong> ${categoria}<br><strong>Nivel de Urgencia:</strong> <span class="${colorUrgencia}">${urgencia}</span>`;
+            textoAnalizado.innerHTML = `Categoría: ${categoria}<br>Nivel de Urgencia: <span class="${colorUrgencia}">${urgencia}</span>`;
         }
 
-        // Pantalla 5: Selector de Incidencias
         function seleccionarIncidencia(tipo) {
             const alerta = document.getElementById('alerta-incidencia');
             const alertaTexto = document.getElementById('alerta-incidencia-texto');
@@ -756,15 +595,14 @@
             alerta.classList.remove('hidden');
 
             if (tipo === 're-fumigacion') {
-                alertaTexto.innerHTML = "⚠️ <strong>Garantía de Servicio:</strong> Sanip Perú ofrece garantía de 30 días. Programaremos una inspección de refuerzo sin costo adicional.";
+                alertaTexto.innerHTML = "Sanip Perú ofrece garantía de 30 días. Programaremos una inspección de refuerzo sin costo.";
             } else if (tipo === 'demora') {
-                alertaTexto.innerHTML = "🕒 <strong>Compromiso Horario:</strong> Lamentamos la demora. Descontaremos el 10% en tu próximo servicio preventivo.";
+                alertaTexto.innerHTML = "Lamentamos la demora. Descontaremos el 10% en tu próximo servicio preventivo.";
             } else if (tipo === 'documentos') {
-                alertaTexto.innerHTML = "📄 <strong>Envío Digital:</strong> Tu certificado de Saneamiento Ambiental aprobado por el MINSA será enviado a tu correo en un plazo máximo de 2 horas.";
+                alertaTexto.innerHTML = "Tu certificado de Saneamiento Ambiental será enviado a tu correo en un máximo de 2 horas.";
             }
         }
 
-        // Acción de Simular Ejecución de Tarea y Éxito
         function ejecutarTarea(num) {
             const cajaExito = document.getElementById('caja-exito');
             const mensajeExito = document.getElementById('mensaje-exito');
@@ -773,20 +611,19 @@
             cajaExito.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
             if (num === 1) {
-                const nombre = document.getElementById('nombre-cliente').value || "Cliente Nuevo";
-                mensajeExito.innerHTML = `¡Solicitud de <strong>${nombre}</strong> recibida! El clasificador inteligente categorizó el servicio correctamente y guardó el prospecto.`;
+                const nombre = document.getElementById('nombre-cliente').value || "Cliente";
+                mensajeExito.innerHTML = `Solicitud de <strong>${nombre}</strong> recibida. El clasificador categorizó el servicio correctamente.`;
             } else if (num === 2) {
-                mensajeExito.innerHTML = `¡Derivación de Chatbot completada! Se transfirió la conversación activa del cliente al panel de un asesor de atención al cliente de Sanip Perú.`;
+                mensajeExito.innerHTML = "Derivación completada. La conversación se transfirió a un asesor de Sanip Perú.";
             } else if (num === 3) {
-                mensajeExito.innerHTML = `¡Ticket de Urgencia Resuelto! Se notificó al equipo técnico de campo y el estatus cambió a "En Servicio de Desinfección".`;
+                mensajeExito.innerHTML = 'Ticket de urgencia resuelto. Se notificó al equipo técnico. Estado: "En Servicio".';
             } else if (num === 4) {
-                mensajeExito.innerHTML = `¡Análisis de intenciones completado! El sistema registró los conceptos del cliente para optimizar el inventario de insumos químicos.`;
+                mensajeExito.innerHTML = "Análisis registrado. El sistema identificó los conceptos clave del mensaje.";
             } else if (num === 5) {
-                mensajeExito.innerHTML = `¡Incidencia reportada correctamente! El reclamo fue derivado al área de Operaciones y Calidad para su resolución prioritaria.`;
+                mensajeExito.innerHTML = "Incidencia reportada. El reclamo fue derivado al área de Operaciones y Calidad.";
             }
         }
 
-        // Inicialización
         window.onload = function() {
             seleccionarSolucion(1);
         };
