@@ -3,630 +3,388 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanip Perú - Soluciones de Saneamiento Ambiental</title>
+    <title>Sanip Perú - Saneamiento Ambiental | Fumigación y Desinfección</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #f8fafc;
-        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f8fafc; }
+        .hero-clip { clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     </style>
 </head>
 <body class="min-h-screen flex flex-col text-slate-800">
 
-    <header class="bg-gradient-to-r from-blue-900 to-indigo-950 text-white shadow-md sticky top-0 z-50">
+    <header class="bg-white shadow-sm border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center space-x-3">
-                <div class="bg-white p-2 rounded-lg shadow-inner flex items-center justify-center">
-                    <span class="text-blue-900 font-extrabold text-xl tracking-tight">SANIP<span class="text-green-500">.</span>PE</span>
+                <div class="bg-blue-900 p-2 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-extrabold text-xl tracking-tight">SANIP<span class="text-green-400">.</span>PE</span>
                 </div>
                 <div class="hidden md:block">
-                    <span class="text-xs text-blue-200 block font-semibold uppercase tracking-wider">Saneamiento Ambiental Integrado</span>
-                    <span class="text-xs text-slate-300">Protegiendo tu salud desde 2018</span>
+                    <span class="text-xs text-blue-900 block font-semibold uppercase tracking-wider">Saneamiento Ambiental Integrado</span>
+                    <span class="text-xs text-slate-400">RUC: 20607845912</span>
                 </div>
             </div>
-            <div class="flex items-center space-x-4">
-                <a href="#soluciones" class="hover:text-blue-200 transition-colors text-sm font-medium">Servicios</a>
-                <a href="#demo" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-md flex items-center gap-2">
-                    <i class="fa-solid fa-mobile-screen-button"></i> Demo Interactiva
-                </a>
-            </div>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="#inicio" class="text-sm font-semibold text-blue-900 border-b-2 border-blue-900 pb-1">Inicio</a>
+                <a href="#servicios" class="text-sm font-medium text-slate-600 hover:text-blue-900 transition-colors">Servicios</a>
+                <a href="#nosotros" class="text-sm font-medium text-slate-600 hover:text-blue-900 transition-colors">Nosotros</a>
+                <a href="#contacto" class="text-sm font-medium text-slate-600 hover:text-blue-900 transition-colors">Contacto</a>
+            </nav>
+            <a href="tel:+51987654321" class="bg-blue-900 hover:bg-blue-800 text-white px-4 py-2 rounded-lg text-sm font-bold transition-all shadow-md flex items-center gap-2">
+                <i class="fa-solid fa-phone"></i> (01) 705-1234
+            </a>
         </div>
     </header>
 
-    <section class="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-16 px-4">
-        <div class="max-w-7xl mx-auto">
+    <section id="inicio" class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-950 text-white overflow-hidden">
+        <div class="hero-clip absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIvPjwvZz48L2c+PC9zdmc+')] opacity-40"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
             <div class="max-w-3xl">
-                <span class="text-blue-200 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-white/10 rounded-full border border-white/20">Innovación Digital 2026</span>
-                <h1 class="text-4xl md:text-5xl font-extrabold mt-4 tracking-tight leading-tight">
-                    Soluciones Digitales para tu <span class="text-amber-400">Saneamiento</span>
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 bg-green-500/20 text-green-300 rounded-full border border-green-500/30">Protegiendo tu salud</span>
+                    <span class="text-xs text-blue-300">Desde 2018</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
+                    Expertos en <span class="text-amber-400">Saneamiento Ambiental</span>
                 </h1>
-                <p class="text-blue-200 mt-4 text-lg max-w-2xl">
-                    Sanip Perú optimiza la atención de sus servicios de fumigación, desratización y desinfección con herramientas tecnológicas diseñadas para brindarte una experiencia rápida, segura y eficiente.
+                <p class="text-lg md:text-xl text-blue-200 mt-4 max-w-2xl leading-relaxed">
+                    Brindamos servicios profesionales de fumigación, desratización, desinfección y control de plagas para hogares, empresas e industrias en Lima Metropolitana.
                 </p>
-                <div class="mt-6 flex flex-wrap gap-4">
-                    <a href="#demo" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-6 py-3 rounded-xl font-bold text-sm transition-all shadow-lg flex items-center gap-2">
-                        <i class="fa-solid fa-play"></i> Probar Demo
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="#servicios" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-6 py-3.5 rounded-xl font-bold text-sm transition-all shadow-xl flex items-center gap-2">
+                        <i class="fa-solid fa-calendar-check"></i> Solicita tu Cotización
                     </a>
-                    <a href="#soluciones" class="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold text-sm transition-all border border-white/20">
-                        Ver Servicios
+                    <a href="#contacto" class="bg-white/10 hover:bg-white/20 text-white px-6 py-3.5 rounded-xl font-semibold text-sm transition-all border border-white/20 flex items-center gap-2">
+                        <i class="fa-solid fa-circle-info"></i> Más Información
                     </a>
+                </div>
+                <div class="mt-10 flex flex-wrap gap-6 text-sm text-blue-200">
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-green-400"></i> Certificados DIGESA</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-green-400"></i> Productos Biodegradables</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-green-400"></i> Garantía 30 Días</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
-        
-        <div class="lg:col-span-7 space-y-8" id="soluciones">
-            
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                <div class="flex justify-between items-center mb-6">
-                    <div>
-                        <h2 class="text-xl font-bold text-slate-900">Nuestros Servicios Digitales</h2>
-                        <p class="text-xs text-slate-500 mt-1">Soluciones tecnológicas integradas para tu tranquilidad</p>
-                    </div>
-                    <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 text-blue-800 rounded-full">5 Soluciones</span>
-                </div>
-
-                <div class="space-y-4">
-                    
-                    <div class="relative bg-gradient-to-r from-amber-50/60 to-white p-4 rounded-xl border border-amber-200 shadow-sm transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(1)">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 flex flex-col items-center">
-                                <div class="w-12 h-12 rounded-full bg-gradient-to-b from-yellow-300 to-amber-500 flex items-center justify-center shadow-md relative border-2 border-white">
-                                    <span class="text-white font-black text-xl">1</span>
-                                    <div class="absolute -top-1 w-6 h-2 bg-red-600 rounded-sm"></div>
-                                </div>
-                                <span class="text-[10px] font-bold text-amber-700 mt-1 uppercase tracking-wider">Oro</span>
-                            </div>
-                            <div class="flex-grow">
-                                <div class="flex items-center justify-between">
-                                    <h3 class="font-bold text-slate-900 text-base">Formulario Inteligente de Solicitud</h3>
-                                    <span class="text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full font-semibold">Recomendado</span>
-                                </div>
-                                <p class="text-xs text-slate-600 mt-1">Clasificación automática del tipo de plaga o requerimiento. El sistema analiza tu caso y sugiere el servicio adecuado al instante.</p>
-                                <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
-                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-circle-check"></i> Respuesta inmediata</span>
-                                    <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-brain"></i> Clasificación inteligente</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="relative bg-slate-50/50 p-4 rounded-xl border border-slate-200 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(2)">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 flex flex-col items-center">
-                                <div class="w-12 h-12 rounded-full bg-gradient-to-b from-slate-200 to-slate-400 flex items-center justify-center shadow-md relative border-2 border-white">
-                                    <span class="text-white font-black text-xl">2</span>
-                                    <div class="absolute -top-1 w-6 h-2 bg-blue-600 rounded-sm"></div>
-                                </div>
-                                <span class="text-[10px] font-bold text-slate-500 mt-1 uppercase tracking-wider">Plata</span>
-                            </div>
-                            <div class="flex-grow">
-                                <h3 class="font-bold text-slate-900 text-base">Chatbot WhatsApp con Filtro y Derivación</h3>
-                                <p class="text-xs text-slate-600 mt-1">Asistente automatizado que filtra emergencias de desinfección y deriva a asesores especialistas al instante.</p>
-                                <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
-                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-users-slash"></i> Reduce tiempos de espera</span>
-                                    <span class="bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-bolt"></i> Atención 24/7</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="relative bg-slate-50/50 p-4 rounded-xl border border-slate-200 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(3)">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 flex flex-col items-center">
-                                <div class="w-12 h-12 rounded-full bg-gradient-to-b from-amber-600 to-amber-800 flex items-center justify-center shadow-md relative border-2 border-white">
-                                    <span class="text-white font-black text-xl">3</span>
-                                    <div class="absolute -top-1 w-6 h-2 bg-red-800 rounded-sm"></div>
-                                </div>
-                                <span class="text-[10px] font-bold text-amber-800 mt-1 uppercase tracking-wider">Bronce</span>
-                            </div>
-                            <div class="flex-grow">
-                                <h3 class="font-bold text-slate-900 text-base">Sistema de Tickets de Atención</h3>
-                                <p class="text-xs text-slate-600 mt-1">Panel de control interno para ordenar solicitudes de inspección técnica según nivel de urgencia sanitaria.</p>
-                                <div class="mt-2 flex flex-wrap gap-2 text-[11px]">
-                                    <span class="bg-green-100 text-green-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-list-check"></i> Priorización automática</span>
-                                    <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded font-medium"><i class="fa-solid fa-clock"></i> Mejora tiempos de respuesta</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div class="bg-slate-50/30 p-4 rounded-xl border border-slate-150 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(4)">
-                            <div class="flex items-start gap-3">
-                                <span class="w-8 h-8 rounded-lg bg-slate-200 text-slate-700 font-extrabold flex items-center justify-center text-sm flex-shrink-0">4</span>
-                                <div>
-                                    <h4 class="font-bold text-slate-900 text-sm">Clasificación por Palabras Clave</h4>
-                                    <p class="text-[11px] text-slate-600 mt-1">Analiza tu mensaje y detecta el nivel de urgencia automáticamente.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="bg-slate-50/30 p-4 rounded-xl border border-slate-150 transition-all hover:shadow-md cursor-pointer" onclick="seleccionarSolucion(5)">
-                            <div class="flex items-start gap-3">
-                                <span class="w-8 h-8 rounded-lg bg-slate-200 text-slate-700 font-extrabold flex items-center justify-center text-sm flex-shrink-0">5</span>
-                                <div>
-                                    <h4 class="font-bold text-slate-900 text-sm">Menú de Reclamos Interactivo</h4>
-                                    <p class="text-[11px] text-slate-600 mt-1">Registra incidencias y recibe seguimiento personalizado.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+    <section class="py-16 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-blue-900 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-blue-50 rounded-full border border-blue-200">Nuestros Servicios</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3">Soluciones Profesionales en Saneamiento</h2>
+                <p class="text-slate-500 mt-2 max-w-2xl mx-auto">Más de 8 años protegiendo hogares y empresas. Contamos con técnicos capacitados y equipos de última generación.</p>
             </div>
 
-            <div class="bg-blue-50 border border-blue-200 p-5 rounded-2xl">
-                <div class="flex items-start gap-3">
-                    <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                        <i class="fa-solid fa-shield-halved text-blue-700"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-slate-900 text-sm">Compromiso Sanip Perú</h3>
-                        <p class="text-xs text-slate-600 mt-1">Más de 8 años protegiendo hogares y empresas en Lima. Contamos con certificaciones DIGESA y equipos especializados para cada tipo de plaga.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="lg:col-span-5" id="demo">
-            <div class="bg-slate-900 text-slate-200 p-6 rounded-2xl shadow-xl border border-slate-800 sticky top-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
-                    <div class="flex items-center gap-2">
-                        <span class="text-sm font-bold text-white flex items-center gap-2">
-                            <i class="fa-solid fa-mobile-screen-button text-blue-400"></i> App Sanip Perú
-                        </span>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 group">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-100 flex items-center justify-center mb-4 group-hover:bg-amber-200 transition-colors">
+                        <i class="fa-solid fa-bug text-amber-600 text-xl"></i>
                     </div>
-                    <span class="text-[10px] bg-blue-600/20 text-blue-300 px-2 py-0.5 rounded font-mono">v2.0 Demo</span>
+                    <h3 class="font-bold text-slate-900 text-lg">Control de Insectos</h3>
+                    <p class="text-sm text-slate-600 mt-2">Eliminación de cucarachas, moscas, hormigas, mosquitos y todo tipo de insectos rastreros y voladores con métodos seguros y efectivos.</p>
+                    <ul class="mt-3 space-y-1.5 text-sm text-slate-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Gel insecticida profesional</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Termonebulización</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Aspersión residual</li>
+                    </ul>
                 </div>
 
-                <div class="mb-4">
-                    <div class="flex items-center justify-between">
-                        <h3 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
-                            <i class="fa-solid fa-layer-group text-blue-400" id="solucion-icono"></i>
-                            <span id="solucion-titulo">Formulario Inteligente</span>
-                        </h3>
-                        <span class="text-[10px] font-mono px-2 py-0.5 bg-slate-800 rounded text-slate-400" id="solucion-puesto">Servicio Estrella</span>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 group">
+                    <div class="w-14 h-14 rounded-2xl bg-red-100 flex items-center justify-center mb-4 group-hover:bg-red-200 transition-colors">
+                        <i class="fa-solid fa-rat text-red-600 text-xl"></i>
                     </div>
-                    <p class="text-xs text-slate-400 mt-1 italic" id="solucion-meta">
-                        Completa tus datos y recibe una solución personalizada al instante.
-                    </p>
+                    <h3 class="font-bold text-slate-900 text-lg">Desratización</h3>
+                    <p class="text-sm text-slate-600 mt-2">Control y eliminación de roedores (ratas y ratones) con cebaderas de seguridad y sellado de accesos en locales comerciales, almacenes y viviendas.</p>
+                    <ul class="mt-3 space-y-1.5 text-sm text-slate-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Cebaderas estancas certificadas</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Monitoreo perimetral</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Exclusión y sellado</li>
+                    </ul>
                 </div>
 
-                <div class="bg-slate-950 border-4 border-slate-800 rounded-[32px] overflow-hidden max-w-[290px] mx-auto shadow-2xl relative my-6">
-                    <div class="absolute top-0 inset-x-0 h-4 bg-slate-800 flex justify-center items-center z-10">
-                        <div class="w-16 h-1.5 bg-slate-950 rounded-full"></div>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors">
+                        <i class="fa-solid fa-droplet text-blue-600 text-xl"></i>
                     </div>
-
-                    <div class="pt-5 pb-6 px-4 min-h-[460px] flex flex-col" id="pantalla-celular">
-                        
-                        <div id="pantalla-1" class="flex-grow flex flex-col justify-between">
-                            <div>
-                                <div class="text-center py-3 border-b border-slate-800">
-                                    <span class="text-xs font-bold text-blue-400 font-mono tracking-wider">SANIP PERÚ</span>
-                                    <h4 class="text-[11px] text-slate-400">Solicitud de Servicio</h4>
-                                </div>
-
-                                <div class="mt-4 space-y-3">
-                                    <div class="space-y-1">
-                                        <label class="text-[10px] font-semibold text-slate-300 block">Nombre o Empresa</label>
-                                        <input type="text" id="nombre-cliente" placeholder="Ej. Restaurante Sabor Peruano" class="w-full text-xs bg-slate-900 border border-slate-700 rounded p-2 text-white focus:outline-none focus:ring-1 focus:ring-blue-500">
-                                    </div>
-                                    <div class="space-y-1">
-                                        <label class="text-[10px] font-semibold text-slate-300 block">¿Qué problema presenta?</label>
-                                        <select id="plaga-cliente" onchange="analizarPlaga()" class="w-full text-xs bg-slate-900 border border-slate-700 rounded p-2 text-white focus:outline-none focus:ring-1 focus:ring-blue-500">
-                                            <option value="">-- Selecciona una opción --</option>
-                                            <option value="insectos">Cucarachas o moscas</option>
-                                            <option value="roedores">Roedores / ratas</option>
-                                            <option value="desinfeccion">Desinfección de tanques de agua</option>
-                                            <option value="preventivo">Fumigación general preventiva</option>
-                                        </select>
-                                    </div>
-
-                                    <div id="clasificacion-ia" class="p-2.5 bg-slate-900 border border-blue-900/50 rounded-lg hidden">
-                                        <span class="text-[9px] uppercase tracking-wider text-blue-400 font-extrabold block">Análisis Inteligente</span>
-                                        <p class="text-[11px] text-white mt-1" id="clasificacion-resultado"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pt-4 border-t border-slate-900">
-                                <button onclick="ejecutarTarea(1)" class="w-full py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-xs rounded-xl shadow-lg hover:brightness-110 active:scale-95 transition-all">
-                                    Enviar Solicitud
-                                </button>
-                            </div>
-                        </div>
-
-                        <div id="pantalla-2" class="flex-grow flex flex-col justify-between hidden">
-                            <div>
-                                <div class="bg-teal-900 p-2 -mx-4 -mt-1 flex items-center gap-2">
-                                    <div class="w-7 h-7 rounded-full bg-teal-800 flex items-center justify-center text-xs text-white">
-                                        <i class="fa-solid fa-headset"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="text-xs font-bold text-white">Sanip Bot</h4>
-                                        <span class="text-[9px] text-teal-300">En línea</span>
-                                    </div>
-                                </div>
-
-                                <div class="mt-3 space-y-2.5 text-[11px]">
-                                    <div class="bg-teal-950 p-2 rounded-lg text-slate-300 max-w-[85%] border border-teal-900/40">
-                                        ¡Hola! Soy el asistente virtual de Sanip Perú. ¿En qué puedo ayudarte?
-                                        <div class="mt-2 space-y-1">
-                                            <button onclick="seleccionarOpcionBot('Cotizar')" class="w-full text-left p-1 bg-slate-900 hover:bg-slate-800 rounded border border-slate-700/50 text-[10px]">Cotizar fumigación</button>
-                                            <button onclick="seleccionarOpcionBot('Emergencia')" class="w-full text-left p-1 bg-slate-900 hover:bg-slate-800 rounded border border-slate-700/50 text-[10px]">Reportar plaga crítica</button>
-                                        </div>
-                                    </div>
-
-                                    <div id="mensaje-usuario-chatbot" class="bg-blue-900 p-2 rounded-lg text-white max-w-[80%] ml-auto text-right hidden">
-                                        <span id="mensaje-usuario-texto"></span>
-                                    </div>
-
-                                    <div id="mensaje-bot-respuesta" class="bg-teal-950 p-2 rounded-lg text-slate-300 max-w-[85%] border border-teal-900/40 hidden">
-                                        <p id="mensaje-bot-texto"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pt-4">
-                                <button onclick="ejecutarTarea(2)" class="w-full py-2 bg-emerald-600 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-emerald-500 transition-all">
-                                    Derivar a Asesor
-                                </button>
-                            </div>
-                        </div>
-
-                        <div id="pantalla-3" class="flex-grow flex flex-col justify-between hidden">
-                            <div>
-                                <div class="text-center py-2 border-b border-slate-800 flex justify-between items-center">
-                                    <span class="text-[10px] font-bold text-slate-400">PANEL DE TICKETS</span>
-                                    <span class="text-[9px] bg-red-950 text-red-400 px-1.5 py-0.5 rounded border border-red-900">Urgencias</span>
-                                </div>
-
-                                <div class="mt-3 space-y-2 text-[10px]">
-                                    <div class="p-2 bg-red-950/40 border border-red-900 rounded-lg">
-                                        <div class="flex justify-between">
-                                            <span class="font-bold text-red-400">#TK-048 (Cucarachas)</span>
-                                            <span class="px-1 bg-red-600 text-white rounded text-[8px] font-extrabold uppercase">Crítico</span>
-                                        </div>
-                                        <p class="text-[9px] text-slate-300 mt-1">Chifa "El Dragón" - Av. Larco 452</p>
-                                        <p class="text-[8px] text-slate-500 mt-1">Hace 10 minutos</p>
-                                    </div>
-
-                                    <div class="p-2 bg-amber-950/20 border border-amber-900/50 rounded-lg">
-                                        <div class="flex justify-between">
-                                            <span class="font-bold text-amber-400">#TK-047 (Preventivo)</span>
-                                            <span class="px-1 bg-amber-500 text-white rounded text-[8px] font-extrabold uppercase">Media</span>
-                                        </div>
-                                        <p class="text-[9px] text-slate-300 mt-1">Oficinas Nexo - San Isidro</p>
-                                        <p class="text-[8px] text-slate-500 mt-1">Hace 1 hora</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pt-4">
-                                <button onclick="ejecutarTarea(3)" class="w-full py-2 bg-amber-600 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-amber-500 transition-all">
-                                    Atender Urgencia
-                                </button>
-                            </div>
-                        </div>
-
-                        <div id="pantalla-4" class="flex-grow flex flex-col justify-between hidden">
-                            <div>
-                                <div class="text-center py-2 border-b border-slate-800">
-                                    <span class="text-[10px] font-bold text-purple-400 font-mono">DETECTOR DE URGENCIA</span>
-                                    <p class="text-[9px] text-slate-500">Análisis automático de texto</p>
-                                </div>
-
-                                <div class="mt-4 space-y-3">
-                                    <div class="space-y-1">
-                                        <label class="text-[9px] text-slate-400 block">Describe tu situación:</label>
-                                        <textarea id="texto-keywords" rows="3" placeholder="Ej: Hay muchas moscas en mi cocina y necesito fumigar urgente..." class="w-full text-xs bg-slate-900 border border-slate-800 rounded p-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-purple-500"></textarea>
-                                    </div>
-
-                                    <button onclick="analizarKeywords()" class="w-full py-1.5 bg-purple-900 hover:bg-purple-800 text-white font-bold text-[10px] rounded transition-all">
-                                        Analizar
-                                    </button>
-
-                                    <div id="resultado-keywords" class="p-2 bg-slate-900 border border-purple-900/30 rounded text-[10px] hidden">
-                                        <span class="text-[9px] font-bold text-purple-400">Resultado del Análisis:</span>
-                                        <p class="text-white mt-1" id="texto-analizado-keywords"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="pt-4">
-                                <button onclick="ejecutarTarea(4)" class="w-full py-2 bg-purple-700 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-purple-600 transition-all">
-                                    Registrar Análisis
-                                </button>
-                            </div>
-                        </div>
-
-                        <div id="pantalla-5" class="flex-grow flex flex-col justify-between hidden">
-                            <div>
-                                <div class="text-center py-2 border-b border-slate-800">
-                                    <span class="text-[10px] font-bold text-red-400">CENTRAL DE INCIDENCIAS</span>
-                                    <p class="text-[9px] text-slate-500">¿Qué sucedió con tu servicio?</p>
-                                </div>
-
-                                <div class="mt-3 space-y-2">
-                                    <button onclick="seleccionarIncidencia('re-fumigacion')" class="w-full p-2 bg-slate-900 border border-slate-800 rounded-lg text-left text-[11px] hover:border-red-900 flex justify-between items-center">
-                                        <span>La plaga no se eliminó por completo</span>
-                                        <i class="fa-solid fa-chevron-right text-[10px] text-slate-500"></i>
-                                    </button>
-                                    <button onclick="seleccionarIncidencia('demora')" class="w-full p-2 bg-slate-900 border border-slate-800 rounded-lg text-left text-[11px] hover:border-red-900 flex justify-between items-center">
-                                        <span>El técnico llegó tarde</span>
-                                        <i class="fa-solid fa-chevron-right text-[10px] text-slate-500"></i>
-                                    </button>
-                                    <button onclick="seleccionarIncidencia('documentos')" class="w-full p-2 bg-slate-900 border border-slate-800 rounded-lg text-left text-[11px] hover:border-red-900 flex justify-between items-center">
-                                        <span>No recibí mi certificado de fumigación</span>
-                                        <i class="fa-solid fa-chevron-right text-[10px] text-slate-500"></i>
-                                    </button>
-                                </div>
-
-                                <div id="alerta-incidencia" class="p-2 bg-red-950/30 border border-red-900/50 rounded-lg mt-3 text-[10px] text-red-200 hidden">
-                                    <p id="alerta-incidencia-texto"></p>
-                                </div>
-                            </div>
-
-                            <div class="pt-4">
-                                <button onclick="ejecutarTarea(5)" class="w-full py-2 bg-red-900 text-white font-bold text-xs rounded-xl shadow-lg hover:bg-red-800 transition-all">
-                                    Generar Incidencia
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div class="absolute bottom-1.5 inset-x-0 flex justify-center items-center">
-                        <div class="w-20 h-1 bg-slate-700 rounded-full"></div>
-                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg">Desinfección de Tanques</h3>
+                    <p class="text-sm text-slate-600 mt-2">Limpieza y desinfección de cisternas y tanques elevados de agua potable. Entregamos certificado de saneamiento con validez sanitaria.</p>
+                    <ul class="mt-3 space-y-1.5 text-sm text-slate-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Desinfección química certificada</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Análisis bacteriológico</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Certificado DIGESA</li>
+                    </ul>
                 </div>
 
-                <div id="caja-exito" class="bg-blue-950 border border-blue-800 p-4 rounded-xl hidden transition-all">
-                    <div class="flex gap-2">
-                        <i class="fa-regular fa-circle-check text-green-400 text-lg"></i>
-                        <div>
-                            <h4 class="text-xs font-bold text-white">¡Operación Exitosa!</h4>
-                            <p class="text-[11px] text-slate-300 mt-1" id="mensaje-exito">La solicitud se procesó correctamente.</p>
-                        </div>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 group">
+                    <div class="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center mb-4 group-hover:bg-green-200 transition-colors">
+                        <i class="fa-solid fa-spray-can-sparkles text-green-600 text-xl"></i>
                     </div>
+                    <h3 class="font-bold text-slate-900 text-lg">Fumigación General</h3>
+                    <p class="text-sm text-slate-600 mt-2">Servicio preventivo y correctivo de fumigación para oficinas, restaurantes, hoteles, colegios y hogares. Productos autorizados por DIGESA.</p>
+                    <ul class="mt-3 space-y-1.5 text-sm text-slate-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Programa bimensual</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Productos sin olor</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Bajo impacto ambiental</li>
+                    </ul>
                 </div>
 
-                <div class="mt-6 pt-4 border-t border-slate-800 flex justify-between items-center">
-                    <span class="text-xs text-slate-400">Navegar:</span>
-                    <div class="flex gap-1">
-                        <button onclick="seleccionarSolucion(1)" id="dot-1" class="w-6 h-6 rounded bg-blue-600 text-[10px] font-bold text-white flex items-center justify-center transition-all">1</button>
-                        <button onclick="seleccionarSolucion(2)" id="dot-2" class="w-6 h-6 rounded bg-slate-800 text-[10px] font-bold text-slate-400 flex items-center justify-center transition-all">2</button>
-                        <button onclick="seleccionarSolucion(3)" id="dot-3" class="w-6 h-6 rounded bg-slate-800 text-[10px] font-bold text-slate-400 flex items-center justify-center transition-all">3</button>
-                        <button onclick="seleccionarSolucion(4)" id="dot-4" class="w-6 h-6 rounded bg-slate-800 text-[10px] font-bold text-slate-400 flex items-center justify-center transition-all">4</button>
-                        <button onclick="seleccionarSolucion(5)" id="dot-5" class="w-6 h-6 rounded bg-slate-800 text-[10px] font-bold text-slate-400 flex items-center justify-center transition-all">5</button>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 group">
+                    <div class="w-14 h-14 rounded-2xl bg-purple-100 flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors">
+                        <i class="fa-solid fa-building text-purple-600 text-xl"></i>
                     </div>
+                    <h3 class="font-bold text-slate-900 text-lg">Control de Palomas</h3>
+                    <p class="text-sm text-slate-600 mt-2">Sistema integral para el control de palomas en edificios, azoteas y fachadas. Instalación de mallas, espinas y ahuyentadores.</p>
+                    <ul class="mt-3 space-y-1.5 text-sm text-slate-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Mallas de protección</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Espinas inoxidables</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Ahuyentamiento ético</li>
+                    </ul>
                 </div>
 
-            </div>
-        </div>
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 group">
+                    <div class="w-14 h-14 rounded-2xl bg-cyan-100 flex items-center justify-center mb-4 group-hover:bg-cyan-200 transition-colors">
+                        <i class="fa-solid fa-headset text-cyan-600 text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg">Atención de Emergencia</h3>
+                    <p class="text-sm text-slate-600 mt-2">Servicio de atención prioritaria para casos críticos de plagas. Respuesta en menos de 2 horas en Lima Metropolitana.</p>
+                    <ul class="mt-3 space-y-1.5 text-sm text-slate-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Respuesta exprés</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Evaluación gratuita</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Presupuesto sin compromiso</li>
+                    </ul>
+                </div>
 
-    </main>
-
-    <section class="bg-white border-t border-slate-200 py-12 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center">
-            <h3 class="text-lg font-bold text-slate-900">¿Por qué elegir Sanip Perú?</h3>
-            <p class="text-sm text-slate-600 mt-2 max-w-2xl mx-auto">
-                Tecnología de punta combinada con más de 8 años de experiencia en saneamiento ambiental. Nuestros procesos digitales agilizan la atención para que recibas una solución rápida y efectiva.
-            </p>
-            <div class="mt-6 flex flex-wrap justify-center gap-6 text-xs font-semibold text-slate-500">
-                <span><i class="fa-solid fa-certificate text-green-500 mr-2"></i> Certificados DIGESA</span>
-                <span><i class="fa-solid fa-clock text-green-500 mr-2"></i> Respuesta en menos de 2 horas</span>
-                <span><i class="fa-solid fa-shield text-green-500 mr-2"></i> Garantía de 30 días</span>
             </div>
         </div>
     </section>
 
-    <footer class="bg-slate-900 text-slate-400 py-6 text-center text-xs border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-4">
-            <p>&copy; 2026 Sanip Perú Saneamiento Ambiental. Todos los derechos reservados.</p>
-            <p class="mt-1 text-slate-500">Control de Plagas, Fumigación y Desinfección Ambiental en Lima Metropolitana.</p>
+    <section id="nosotros" class="py-16 px-4 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-blue-900 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-blue-100 rounded-full border border-blue-200">Quiénes Somos</span>
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3 leading-tight">Más de 8 años protegiendo la salud de los peruanos</h2>
+                    <p class="text-slate-600 mt-4 leading-relaxed">
+                        En <strong class="text-blue-900">Sanip Perú</strong> somos una empresa especializada en saneamiento ambiental con amplia experiencia en el control de plagas urbanas. Contamos con un equipo de profesionales certificados y utilizamos productos biodegradables autorizados por DIGESA.
+                    </p>
+                    <p class="text-slate-600 mt-3 leading-relaxed">
+                        Atendemos a restaurantes, hoteles, colegios, clínicas, empresas industriales y hogares particulares en toda Lima Metropolitana. Nuestro compromiso es brindar soluciones efectivas garantizando la seguridad de las personas y el medio ambiente.
+                    </p>
+                    <div class="mt-6 grid grid-cols-3 gap-4">
+                        <div class="text-center p-4 bg-white rounded-xl border border-slate-200">
+                            <span class="text-3xl font-extrabold text-blue-900">500+</span>
+                            <p class="text-xs text-slate-500 mt-1">Clientes Atendidos</p>
+                        </div>
+                        <div class="text-center p-4 bg-white rounded-xl border border-slate-200">
+                            <span class="text-3xl font-extrabold text-blue-900">8+</span>
+                            <p class="text-xs text-slate-500 mt-1">Años de Experiencia</p>
+                        </div>
+                        <div class="text-center p-4 bg-white rounded-xl border border-slate-200">
+                            <span class="text-3xl font-extrabold text-blue-900">98%</span>
+                            <p class="text-xs text-slate-500 mt-1">Satisfacción</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-blue-900 to-indigo-950 p-8 rounded-3xl text-white">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
+                            <i class="fa-solid fa-file-shield text-2xl text-amber-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Certificaciones</h4>
+                            <p class="text-sm text-blue-200">Respaldo y calidad garantizada</p>
+                        </div>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-certificate text-amber-400 mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold text-sm">DIGESA</span>
+                                <p class="text-xs text-blue-200">Registro Sanitario de productos y servicios</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-certificate text-amber-400 mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold text-sm">MINSA</span>
+                                <p class="text-xs text-blue-200">Certificados de saneamiento ambiental</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-certificate text-amber-400 mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold text-sm">ISO 9001</span>
+                                <p class="text-xs text-blue-200">Sistema de gestión de calidad</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-10">
+                <span class="text-blue-900 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-blue-50 rounded-full border border-blue-200">Proceso</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3">¿Cómo trabajamos?</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-extrabold text-blue-900">1</span>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mt-3">Contacto</h4>
+                    <p class="text-sm text-slate-500 mt-1">Llámanos o escríbenos para programar una visita de inspección.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-extrabold text-blue-900">2</span>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mt-3">Inspección</h4>
+                    <p class="text-sm text-slate-500 mt-1">Evaluamos el lugar y diagnosticamos el tipo de plaga o problema.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-extrabold text-blue-900">3</span>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mt-3">Cotización</h4>
+                    <p class="text-sm text-slate-500 mt-1">Te enviamos un presupuesto detallado sin compromiso.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto">
+                        <span class="text-2xl font-extrabold text-blue-900">4</span>
+                    </div>
+                    <h4 class="font-bold text-slate-900 mt-3">Servicio</h4>
+                    <p class="text-sm text-slate-500 mt-1">Ejecutamos el tratamiento con certificación y garantía.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-16 px-4 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <span class="text-blue-300 font-bold uppercase tracking-wider text-xs px-3 py-1 bg-white/10 rounded-full border border-white/20">Contacto</span>
+                    <h2 class="text-3xl md:text-4xl font-extrabold mt-3">Solicita tu servicio hoy</h2>
+                    <p class="text-blue-200 mt-3">Déjanos tus datos y un asesor se comunicará contigo en menos de 24 horas para brindarte una solución personalizada.</p>
+                    <div class="mt-8 space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-phone text-amber-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-blue-200">Teléfono</p>
+                                <p class="font-bold">(01) 705-1234</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-envelope text-amber-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-blue-200">Email</p>
+                                <p class="font-bold">contacto@sanip.pe</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-brands fa-whatsapp text-amber-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-blue-200">WhatsApp</p>
+                                <p class="font-bold">+51 987 654 321</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-location-dot text-amber-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-blue-200">Dirección</p>
+                                <p class="font-bold">Av. Javier Prado Este 1520, San Isidro - Lima</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-3xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-6">Formulario de Contacto</h3>
+                    <div class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="text-xs font-semibold text-slate-300 block mb-1">Nombre completo</label>
+                                <input type="text" placeholder="Tu nombre" class="w-full bg-slate-700 border border-slate-600 rounded-xl p-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div>
+                                <label class="text-xs font-semibold text-slate-300 block mb-1">Teléfono</label>
+                                <input type="tel" placeholder="Tu teléfono" class="w-full bg-slate-700 border border-slate-600 rounded-xl p-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-xs font-semibold text-slate-300 block mb-1">Correo electrónico</label>
+                            <input type="email" placeholder="tu@correo.com" class="w-full bg-slate-700 border border-slate-600 rounded-xl p-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500">
+                        </div>
+                        <div>
+                            <label class="text-xs font-semibold text-slate-300 block mb-1">Tipo de servicio</label>
+                            <select class="w-full bg-slate-700 border border-slate-600 rounded-xl p-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                <option value="">Selecciona un servicio</option>
+                                <option value="insectos">Control de Insectos</option>
+                                <option value="roedores">Desratización</option>
+                                <option value="desinfeccion">Desinfección de Tanques</option>
+                                <option value="fumigacion">Fumigación General</option>
+                                <option value="palomas">Control de Palomas</option>
+                                <option value="emergencia">Atención de Emergencia</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="text-xs font-semibold text-slate-300 block mb-1">Mensaje</label>
+                            <textarea rows="3" placeholder="Describe tu situación o requerimiento..." class="w-full bg-slate-700 border border-slate-600 rounded-xl p-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
+                        </div>
+                        <button class="w-full bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold py-3 rounded-xl transition-all shadow-lg">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Enviar Solicitud
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-10 px-4 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <div class="bg-white p-2 rounded-lg inline-flex items-center justify-center mb-3">
+                        <span class="text-blue-900 font-extrabold text-lg tracking-tight">SANIP<span class="text-green-500">.</span>PE</span>
+                    </div>
+                    <p class="text-sm text-slate-500">Saneamiento Ambiental Integrado. Protegiendo tu salud y el medio ambiente con soluciones profesionales.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm mb-3">Enlaces Rápidos</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#inicio" class="hover:text-white transition-colors">Inicio</a></li>
+                        <li><a href="#servicios" class="hover:text-white transition-colors">Servicios</a></li>
+                        <li><a href="#nosotros" class="hover:text-white transition-colors">Nosotros</a></li>
+                        <li><a href="#contacto" class="hover:text-white transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm mb-3">Horario de Atención</h4>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li>Lun - Vie: 8:00 am - 6:00 pm</li>
+                        <li>Sábados: 8:00 am - 1:00 pm</li>
+                        <li>Emergencias: 24 horas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 mt-8 pt-6 text-center text-xs">
+                <p>&copy; 2026 Sanip Perú Saneamiento Ambiental. Todos los derechos reservados.</p>
+                <p class="mt-1 text-slate-600">RUC: 20607845912 | Av. Javier Prado Este 1520, San Isidro - Lima</p>
+            </div>
         </div>
     </footer>
 
-    <script>
-        let solucionActual = 1;
-
-        const infoSoluciones = {
-            1: {
-                titulo: "Formulario Inteligente",
-                meta: "Completa tus datos y recibe una solución personalizada al instante.",
-                puesto: "Servicio Estrella",
-                icono: "fa-wpforms"
-            },
-            2: {
-                titulo: "Chatbot WhatsApp",
-                meta: "Atención automatizada y derivación inteligente a asesores especializados.",
-                puesto: "Servicio Premium",
-                icono: "fa-comments"
-            },
-            3: {
-                titulo: "Sistema de Tickets",
-                meta: "Priorización automática de solicitudes según urgencia sanitaria.",
-                puesto: "Servicio Profesional",
-                icono: "fa-ticket"
-            },
-            4: {
-                titulo: "Detector de Urgencia",
-                meta: "Analiza tu mensaje y clasifica el nivel de peligro automáticamente.",
-                puesto: "Herramienta Digital",
-                icono: "fa-magnifying-glass"
-            },
-            5: {
-                titulo: "Menú de Incidencias",
-                meta: "Registra reclamos y recibe seguimiento personalizado de tu caso.",
-                puesto: "Soporte Técnico",
-                icono: "fa-triangle-exclamation"
-            }
-        };
-
-        function seleccionarSolucion(num) {
-            solucionActual = num;
-            
-            document.getElementById('solucion-titulo').textContent = infoSoluciones[num].titulo;
-            document.getElementById('solucion-meta').textContent = infoSoluciones[num].meta;
-            document.getElementById('solucion-puesto').textContent = infoSoluciones[num].puesto;
-            
-            const icono = document.getElementById('solucion-icono');
-            icono.className = `fa-solid ${infoSoluciones[num].icono} text-blue-400`;
-
-            for (let i = 1; i <= 5; i++) {
-                document.getElementById(`pantalla-${i}`).classList.add('hidden');
-                
-                const btnDot = document.getElementById(`dot-${i}`);
-                if (i === num) {
-                    btnDot.className = "w-6 h-6 rounded bg-blue-600 text-[10px] font-bold text-white flex items-center justify-center transition-all";
-                } else {
-                    btnDot.className = "w-6 h-6 rounded bg-slate-800 text-[10px] font-bold text-slate-400 flex items-center justify-center transition-all";
-                }
-            }
-
-            document.getElementById(`pantalla-${num}`).classList.remove('hidden');
-            document.getElementById('caja-exito').classList.add('hidden');
-
-            if (num === 1) {
-                document.getElementById('clasificacion-ia').classList.add('hidden');
-                document.getElementById('nombre-cliente').value = '';
-                document.getElementById('plaga-cliente').value = '';
-            } else if (num === 2) {
-                document.getElementById('mensaje-usuario-chatbot').classList.add('hidden');
-                document.getElementById('mensaje-bot-respuesta').classList.add('hidden');
-            } else if (num === 4) {
-                document.getElementById('texto-keywords').value = '';
-                document.getElementById('resultado-keywords').classList.add('hidden');
-            } else if (num === 5) {
-                document.getElementById('alerta-incidencia').classList.add('hidden');
-            }
-        }
-
-        function analizarPlaga() {
-            const select = document.getElementById('plaga-cliente');
-            const valor = select.value;
-            const cajaIa = document.getElementById('clasificacion-ia');
-            const textoResultado = document.getElementById('clasificacion-resultado');
-
-            if (!valor) {
-                cajaIa.classList.add('hidden');
-                return;
-            }
-
-            cajaIa.classList.remove('hidden');
-            
-            if (valor === 'insectos') {
-                textoResultado.innerHTML = "Prioridad: Media-Alta<br>Servicio Sugerido: Desinsectación y control de vectores con gel y aspersión.";
-            } else if (valor === 'roedores') {
-                textoResultado.innerHTML = "Prioridad: Crítica<br>Servicio Sugerido: Desratización con cebaderas de seguridad perimetral.";
-            } else if (valor === 'desinfeccion') {
-                textoResultado.innerHTML = "Prioridad: Programada<br>Servicio sugerido: Limpieza y desinfección química de cisterna con certificado sanitario.";
-            } else if (valor === 'preventivo') {
-                textoResultado.innerHTML = "Prioridad: Normal<br>Fumigación general contra insectos rastreros y voladores. Recomendado cada 6 meses.";
-            }
-        }
-
-        function seleccionarOpcionBot(opcion) {
-            const msgUsuario = document.getElementById('mensaje-usuario-chatbot');
-            const msgTexto = document.getElementById('mensaje-usuario-texto');
-            const msgBot = document.getElementById('mensaje-bot-respuesta');
-            const msgBotTexto = document.getElementById('mensaje-bot-texto');
-
-            msgUsuario.classList.remove('hidden');
-
-            if (opcion === 'Cotizar') {
-                msgTexto.textContent = "Quiero cotizar una fumigación preventiva";
-                setTimeout(() => {
-                    msgBot.classList.remove('hidden');
-                    msgBotTexto.innerHTML = "Excelente! Para cotizar necesito los metros cuadrados de tu local y el distrito en Lima.";
-                }, 600);
-            } else {
-                msgTexto.textContent = "Tengo una emergencia de plaga crítica!";
-                setTimeout(() => {
-                    msgBot.classList.remove('hidden');
-                    msgBotTexto.innerHTML = "Entendido! Un asesor técnico se comunicará contigo en menos de 5 minutos.";
-                }, 600);
-            }
-        }
-
-        function analizarKeywords() {
-            const texto = document.getElementById('texto-keywords').value.toLowerCase();
-            const resultado = document.getElementById('resultado-keywords');
-            const textoAnalizado = document.getElementById('texto-analizado-keywords');
-
-            if (!texto.trim()) return;
-
-            resultado.classList.remove('hidden');
-
-            let categoria = "Detección General / Cotización";
-            let urgencia = "Baja";
-            let colorUrgencia = "text-slate-400";
-
-            if (texto.includes('rata') || texto.includes('roedor') || texto.includes('lote') || texto.includes('almacen')) {
-                categoria = "Control de Roedores (Desratización)";
-                urgencia = "Muy Alta";
-                colorUrgencia = "text-red-500 font-bold";
-            } else if (texto.includes('urgente') || texto.includes('emergencia') || texto.includes('ahora')) {
-                categoria = "Atención Inmediata";
-                urgencia = "Crítica";
-                colorUrgencia = "text-orange-500 font-bold";
-            } else if (texto.includes('agua') || texto.includes('tanque') || texto.includes('cisterna')) {
-                categoria = "Saneamiento de Reservorios de Agua";
-                urgencia = "Planificado";
-                colorUrgencia = "text-blue-400 font-bold";
-            }
-
-            textoAnalizado.innerHTML = `Categoría: ${categoria}<br>Nivel de Urgencia: <span class="${colorUrgencia}">${urgencia}</span>`;
-        }
-
-        function seleccionarIncidencia(tipo) {
-            const alerta = document.getElementById('alerta-incidencia');
-            const alertaTexto = document.getElementById('alerta-incidencia-texto');
-
-            alerta.classList.remove('hidden');
-
-            if (tipo === 're-fumigacion') {
-                alertaTexto.innerHTML = "Sanip Perú ofrece garantía de 30 días. Programaremos una inspección de refuerzo sin costo.";
-            } else if (tipo === 'demora') {
-                alertaTexto.innerHTML = "Lamentamos la demora. Descontaremos el 10% en tu próximo servicio preventivo.";
-            } else if (tipo === 'documentos') {
-                alertaTexto.innerHTML = "Tu certificado de Saneamiento Ambiental será enviado a tu correo en un máximo de 2 horas.";
-            }
-        }
-
-        function ejecutarTarea(num) {
-            const cajaExito = document.getElementById('caja-exito');
-            const mensajeExito = document.getElementById('mensaje-exito');
-
-            cajaExito.classList.remove('hidden');
-            cajaExito.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-
-            if (num === 1) {
-                const nombre = document.getElementById('nombre-cliente').value || "Cliente";
-                mensajeExito.innerHTML = `Solicitud de <strong>${nombre}</strong> recibida. El clasificador categorizó el servicio correctamente.`;
-            } else if (num === 2) {
-                mensajeExito.innerHTML = "Derivación completada. La conversación se transfirió a un asesor de Sanip Perú.";
-            } else if (num === 3) {
-                mensajeExito.innerHTML = 'Ticket de urgencia resuelto. Se notificó al equipo técnico. Estado: "En Servicio".';
-            } else if (num === 4) {
-                mensajeExito.innerHTML = "Análisis registrado. El sistema identificó los conceptos clave del mensaje.";
-            } else if (num === 5) {
-                mensajeExito.innerHTML = "Incidencia reportada. El reclamo fue derivado al área de Operaciones y Calidad.";
-            }
-        }
-
-        window.onload = function() {
-            seleccionarSolucion(1);
-        };
-    </script>
 </body>
 </html>
